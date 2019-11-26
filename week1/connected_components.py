@@ -12,6 +12,13 @@ def explore(v, visited, adj):
 
 
 def number_of_components(adj):
+    """
+    Finds number of connected components of given unordered graph. On each iteration for unvisited vertex explored all
+    reachable from it vertices, after that number of components incremented. Iteration continues until unvisited
+    vertices exists.
+    :param adj: adjacency list
+    :return: number of connected components
+    """
     count = 0
     visited = [0 for _ in range(len(adj))]
     for v in range(len(adj)):
@@ -22,6 +29,14 @@ def number_of_components(adj):
 
 
 if __name__ == '__main__':
+    """
+    Input sample:
+        4 2         // number of vertices and number of edges
+        1 2         // edge between 1 and 2
+        3 2         // edge between 3 and 2
+    Output:
+        2           // 2 connected components
+    """
     input = sys.stdin.read()
     data = list(map(int, input.split()))
     n, m = data[0:2]
