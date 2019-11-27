@@ -15,3 +15,10 @@ Week 2 tasks:
 - check whether given directed graph has cycle
 - compute a topological ordering of a given directed acyclic graph
 - compute the number of strongly connected components of a given directed graph
+
+Week 3:
+- most direct route, shortest-path tree
+
+Week 3 tasks:
+- computing of shortest path between two nodes in undirected graph
+- check undirected graph whether it is bipartite
