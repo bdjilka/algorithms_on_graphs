@@ -22,3 +22,10 @@ Week 3:
 Week 3 tasks:
 - computing of shortest path between two nodes in undirected graph
 - check undirected graph whether it is bipartite
+
+Week 3:
+- fastest routes with possible cycles
+
+Week 3 tasks:
+- dijkstra algorithm
+- bellman-ford algorithm
